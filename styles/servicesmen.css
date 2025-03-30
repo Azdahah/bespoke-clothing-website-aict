@@ -82,7 +82,7 @@ body {
     transition: 3s ease-out;
 }
 .login img:hover{
-    content: url("./images/person.svg");
+    content: url("../images/person.svg");
 }
 .bag img{
     width: 30px;
@@ -90,7 +90,7 @@ body {
     transition: 3s ease-out;
 }
 .bag img:hover{
-    content: url("./images/bag.svg");
+    content: url("../images/bag.svg");
 }
 .container {
     height: 90vh;
