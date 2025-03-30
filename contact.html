@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bespoke Lounge</title>
+    <link rel="icon" type="image/jpeg" href="/images/imgfavicon.jpg"> 
+    <link rel="stylesheet" href="/styles/contact.css"> 
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="nav">
+    <h1 class="title">The Bespoke Lounge</h1>
+    <div class="navbar">
+        <ul class="navlink">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li class="services"><a href="index.html#service">Services</a>
+                <ul class="dropdown">
+                    <li><a href="servicesmen.html">Men</a></li>
+                    <li><a href="serviceswomen.html">Women</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="corner">
+        <a href="login.html" class="login"><img src="images/person-outline.svg"></a>
+        <a href="shoppingcbag.html" class="bag"><img src="images/bag-outline.svg" alt="img"></a>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="contact">
+            <h1>Contact Us</h1>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your message..." rows="5" required></textarea>
+    
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+        
+    <footer>
+        <div class="container2">
+            <h2>The Bespoke Lounge</h2>
+            <div class="quicklinks">
+                <h2>Quick links</h2>
+                <ul class="quicklink-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="contactinfo">
+                <h2>Contact</h2>
+                <div> 
+                    <p>Email:info@thebespokelounge.com</p>
+                    <p>Phone:+92 51 234 5678</p>
+                    <p>Address:The Bespoke Lounge
+                        Beverly Centre, Shop #12 Islamabad</p>
+            </div>
+            </div>
+        </div>
+</footer>
+
+
+
+<script src="/scripts/contact.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+   
+</body>
+
+</html>
+
