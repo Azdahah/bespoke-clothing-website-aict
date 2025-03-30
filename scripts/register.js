@@ -4,7 +4,7 @@ import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase
 
 const firebaseConfig = {
 
-  apiKey: "AIzaSyAygLJDa95re1f86T-YUa4Z5MRn7N-ONRg",
+  apiKey: "YourApiKey",
 
   authDomain: "the-bespoke-lounge-227a7.firebaseapp.com",
 
